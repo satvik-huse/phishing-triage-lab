@@ -15,6 +15,7 @@ phishing_pot dataset, done like an L1 SOC analyst.
 | 01 | Advance-fee scam from compromised mailbox | Malicious | [email-01](reports/email-01.md) |
 | 02 | Cybercrime-tools spam sent from hacked website | Malicious spam (low) | [email-02](reports/email-02.md) |
 | 03 | Advance-fee scam from hijacked government mailbox (same campaign as 01) | Malicious | [email-03](reports/email-03.md) |
+| 04 | Black-market ad selling hacked servers (shells, cPanels, SMTPs, RDPs) | Malicious spam (low) | [email-04](reports/email-04.md) |
 
 ## Tools
 Ubuntu, grep, AbuseIPDB, urlscan.io, VirusTotal, CyberChef, MXToolbox
