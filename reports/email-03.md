@@ -72,6 +72,10 @@ Vendors flagging the origin IP on 2026-10-18: alphaMountain.ai, BitDefender, For
 
 *VirusTotal, 2026-10-18: 6 of 92 vendors flag the origin IP.*
 
+![urlscan.io screenshot of interior.gov.pk](../screenshots/email-03-urlscan.png)
+
+*urlscan.io, 2026-10-14: interior.gov.pk shows a NADRA "not available in your region" page, so the site geoblocks foreign visitors. [Full scan](https://urlscan.io/result/01a13a2f-04d8-73e8-b86b-7ab38b472346/)*
+
 ## 10. Lesson learned
 The first Received hop shows where the sender really connected from. Linking IOCs across emails (same lure, similar Reply-To) turns single alerts into a campaign, which is how SOC analysts find the bigger picture.
 
