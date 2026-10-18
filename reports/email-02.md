@@ -52,3 +52,8 @@ Spam advertising hacking tools and stolen accounts, sent from the web server of 
 
 ## 8. Lesson learned
 A clean reputation score is a snapshot of today. Older samples and hacked legitimate sites often score 0, so headers and content must drive the verdict.
+
+## Evidence
+VirusTotal lookup of sending IP 49.212.207.60, re-checked 2026-10-18: 0/92 vendors flagged it.
+
+![VirusTotal result for 49.212.207.60](../screenshots/email-02-virustotal.png)
