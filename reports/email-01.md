@@ -51,3 +51,8 @@ An unsolicited email claiming to be from billionaire Dieter Schwarz was sent fro
 
 ## 8. Lesson learned
 SPF, DKIM and DMARC passing only proves which server sent the email, not that the sender can be trusted. Compromised legitimate accounts pass every check, so the Reply-To and the content decide the verdict.
+
+## Evidence
+VirusTotal lookup of sending IP 45.189.95.57, re-checked 2026-10-18: 0/92 vendors flagged it.
+
+![VirusTotal result for 45.189.95.57](../screenshots/email-01-virustotal.png)
