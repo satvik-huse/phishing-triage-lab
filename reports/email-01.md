@@ -64,6 +64,10 @@ The IP belongs to the same provider as the webmail hostname (OMID), which suppor
 
 *VirusTotal, 2026-10-18: no vendor flags the sending IP.*
 
+![urlscan.io screenshot of minc.ind.br](../screenshots/email-01-urlscan.png)
+
+*urlscan.io, 2026-10-14: minc.ind.br loads a real industrial-engineering company site in Brazil (no classification). [Full scan](https://urlscan.io/result/01a13a1a-22c1-7674-9296-41d989333c71/)*
+
 ## 9. Lesson learned
 SPF, DKIM and DMARC passing only proves which server sent the email, not that the sender can be trusted. A compromised real account passes every check, so the Reply-To and the content decide the verdict.
 
