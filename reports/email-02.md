@@ -30,7 +30,7 @@ Spam selling hacking tools and stolen accounts, sent from the web server of a le
 |---|---|---|
 | 49.212.207.60 | VirusTotal (re-checked 2026-10-18) | 0/92; AS9371 SAKURA Internet, Japan |
 | 49.212.207.60 | AbuseIPDB | No abuse reports |
-| sanshin-ashiba.com | urlscan.io | Clean |
+| sanshin-ashiba.com | urlscan.io (2026-10-18) | Real Japanese scaffolding company site on WordPress, hosted on the sending IP 49.212.207.60; no classification |
 | Links in body | VirusTotal / urlscan.io | 0 detections at time of analysis |
 | Attachments | grep | None |
 
@@ -64,6 +64,10 @@ VirusTotal's Relations tab lists 6 detected files that contact this IP. That is 
 ![VirusTotal result for 49.212.207.60](../screenshots/email-02-virustotal.png)
 
 *VirusTotal, 2026-10-18: no vendor flags the sending IP.*
+
+![urlscan.io screenshot of sanshin-ashiba.com](../screenshots/email-02-urlscan.png)
+
+*urlscan.io, 2026-10-18: sanshin-ashiba.com is a real Japanese scaffolding company (WordPress) on the same IP that sent the email, 49.212.207.60 (no classification). [Full scan](https://urlscan.io/result/01a14f9d-17d5-7188-ac60-f437e3915b7d/)*
 
 ## 9. Lesson learned
 A clean reputation score is only a snapshot of today. Old samples and hacked legitimate sites often score 0, so headers and content must drive the verdict.
