@@ -57,3 +57,8 @@ Spam advertising a "black market" selling stolen access: web shells, hacked cPan
 
 ## 9. Lesson learned
 Not every malicious email targets the reader. Spam advertising criminal access shows what attackers trade, and why exposed RDP and weak hosting passwords get sold.
+
+## Evidence
+VirusTotal lookup of sending IP 185.231.59.226, re-checked 2026-10-18: 0/92 vendors flagged it.
+
+![VirusTotal result for 185.231.59.226](../screenshots/email-04-virustotal.png)
