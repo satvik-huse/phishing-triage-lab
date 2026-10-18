@@ -28,7 +28,8 @@ Spam advertising a "black market" that sells stolen access: web shells, hacked c
 | Indicator | Tool | Result |
 |---|---|---|
 | 185.231.59.226 | VirusTotal (re-checked 2026-10-18) | 0/92; AS212552 BitCommand LLC, Germany; last full analysis 2 years old |
-| kipa-group.com | VirusTotal / urlscan.io | Clean |
+| kipa-group.com | VirusTotal | Clean |
+| kipa-group.com | urlscan.io (2026-10-18) | Scan failed: DNS error, domain no longer resolves |
 
 ## 4. IOCs
 | Type | Value | Action |
@@ -65,6 +66,8 @@ Spam advertising a "black market" that sells stolen access: web shells, hacked c
 ![VirusTotal result for 185.231.59.226](../screenshots/email-04-virustotal.png)
 
 *VirusTotal, 2026-10-18: no vendor flags the sending IP (stale analysis, 2 years old).*
+
+urlscan.io could not scan kipa-group.com on 2026-10-18 because the domain no longer resolves in DNS, so no screenshot exists. Short-lived domains like this are common for spam operations.
 
 ## 10. Lesson learned
 Not every malicious email targets the reader. Spam advertising criminal access shows what attackers trade, and why exposed RDP and weak hosting passwords end up for sale.
